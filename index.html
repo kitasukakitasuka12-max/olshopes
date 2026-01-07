@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <script>
-      // Inisialisasi process.env segera agar tersedia untuk modul ESM
+      // Inisialisasi process.env agar tersedia bagi library eksternal
       window.process = { 
         env: { 
           API_KEY: "" 
@@ -55,6 +55,7 @@
         color: #be123c;
         font-family: 'Playfair Display', serif;
         font-size: 1.5rem;
+        letter-spacing: 0.1em;
       }
     </style>
     <script type="importmap">
