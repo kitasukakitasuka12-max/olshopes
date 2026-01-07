@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { PageView, Product, CartItem } from './types';
-import { PRODUCTS } from './constants';
-import { ProductCard } from './components/ProductCard';
-import { CartSidebar } from './components/CartSidebar';
-import { AiAdvisor } from './components/AiAdvisor';
-import { Button } from './components/Button';
+import { PageView, Product, CartItem } from './types.ts';
+import { PRODUCTS } from './constants.ts';
+import { ProductCard } from './components/ProductCard.tsx';
+import { CartSidebar } from './components/CartSidebar.tsx';
+import { AiAdvisor } from './components/AiAdvisor.tsx';
+import { Button } from './components/Button.tsx';
 import { ShoppingBag, Search, Menu, Instagram, Facebook, Twitter, Send, ChevronRight } from 'lucide-react';
 
 const App: React.FC = () => {
